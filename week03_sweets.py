@@ -14,6 +14,7 @@ for tr in trs:
     title = tr.select_one('td.info > a.title.ellipsis').text.strip()
     artist = tr.select_one('td.info > a.artist.ellipsis').text
     print(rank, title, artist)
+    #숙제완료
 
 
 
